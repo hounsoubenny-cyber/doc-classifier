@@ -1,0 +1,57 @@
+# Environment
+*.env
+!.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+pyglobal*/
+
+# ML models & data
+*.pkl
+*.joblib
+*.keras
+*.h5
+*.pt
+*.pth
+data/models/
+data/
+
+# Generated HTML reports
+*.html
+
+# Uploaded files (runtime)
+fastapi_mount/
+temp/
+tmp/
+var/
+models_images/data
+models_images/var
+
+# Logs
+*.log
+logs/
+
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Cache
+.cache/
+.user_cache/
