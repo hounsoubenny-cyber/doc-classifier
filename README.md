@@ -195,6 +195,7 @@ joblib
 tensorflow
 scikeras
 zstandard
+scikit-optimize
 ```
 
 ---
