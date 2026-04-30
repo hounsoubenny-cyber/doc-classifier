@@ -196,6 +196,7 @@ tensorflow
 scikeras
 zstandard
 scikit-optimize
+dill
 ```
 
 ---
