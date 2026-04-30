@@ -193,6 +193,8 @@ scikit-learn
 xgboost
 joblib
 tensorflow
+scikeras
+zstandard
 ```
 
 ---
