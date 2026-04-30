@@ -55,8 +55,12 @@ async def predict(filename, keep, true_label:str="", username:str="", ext:str=""
         await asyncio.to_thread(rm, filename)
     
     else:
-        df = pd.DataFrame([{"textes": content, "label": true_label}])
-        await asyncio.to_thread(df.to_csv, filename.replace(ext, ".csv"), index=False)
+        try:
+            df = pd.DataFrame([{"textes": content, "label": true_label}])
+            await asyncio.to_thread(df.to_csv, filename.replace(ext, ".csv"), index=False)
+        except:
+            pass
+        
     print(pred)
     
     return pred
