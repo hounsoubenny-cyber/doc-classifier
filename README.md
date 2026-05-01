@@ -197,6 +197,7 @@ scikeras
 zstandard
 scikit-optimize
 dill
+sqlmodel
 diskcache
 ```
 
